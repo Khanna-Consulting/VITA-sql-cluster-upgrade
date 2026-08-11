@@ -10,4 +10,6 @@ on:
 jobs:
   jira:
     uses: Khanna-Consulting/.github/.github/workflows/jira-smart-commit.yml@main
+    with:
+      ticket-project: scrum
     secrets: inherit
